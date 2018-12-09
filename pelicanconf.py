@@ -10,7 +10,7 @@ SITEURL = 'file://' + os.path.join(os.path.dirname(os.path.abspath(__file__)), '
 
 TIMEZONE = 'America/New_York'
 
-PLUGIN_PATH = '../pelican-plugins/'
+PLUGIN_PATHS = ['../pelican-plugins/']
 PLUGINS = (
 	'html_rst_directive',
 )
